@@ -1,3 +1,19 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 :root {
   --primary-text-color: #212121;
   --title-text-color: #000000;
@@ -7,6 +23,7 @@
   --grey-color: #757575;
   --footer-color: #2f303a;
   --button-color: #f5f4fa;
+  --border-color: #ececec;
 }
 
 body {
@@ -15,8 +32,13 @@ body {
 }
 .header {
   background: var(--links-footer-color);
-}
 
+  border-bottom: 1px solid var(--border-color);
+}
+/*.navigation {
+  display: inline-flexbox;
+  display: flexbox;
+}*/
 .contact-header {
   text-decoration: none;
   font-style: normal;
@@ -229,4 +251,12 @@ body {
 }
 .active {
   color: var(--acent-color);
+}
+.container {
+  width: 1200;
+  padding: 0, 15px;
+  text-align: center;
+}
+.section {
+  padding: 94px 0;
 }
