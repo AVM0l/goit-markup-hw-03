@@ -19,9 +19,9 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <nav class="navigation">
+    <header class="header">
+      <div class="container">
+        <nav>
           <a class="logo-studio" href="./index.html"><span class="logo-web">Web</span>Studio</a>
           <ul class="lists">
             <li><a class="links" href="./index.html">Студия</a></li>
@@ -37,9 +37,11 @@
             <a class="contact-header" href="tel:+380961111111">+380961111111</a>
           </li>
         </ul>
-      </header>
-      <main>
-        <section class="section">
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container buttons">
           <h1 class="visually-hidden">Типи работ</h1>
           <ul class="lists">
             <li><button type="button" class="button">Все</button></li>
@@ -48,79 +50,106 @@
             <li><button type="button" class="button">Дизайн</button></li>
             <li><button type="button" class="button">Маркетинг</button></li>
           </ul>
-          <ul class="lists">
-            <li>
-              <a class="links-posters" href=""
-                ><img src="./images/technocrack.jpg" alt="Technocrack" width="370" />
-                <h3 class="posters">Технокряк</h3>
+        </div>
+        <ul class="lists container">
+          <li class="post">
+            <a class="links-posters" href=""
+              ><img src="./images/technocrack.jpg" alt="Technocrack" width="370" />
+              <div class="poster-desc">
+                <h2 class="posters">Технокряк</h2>
                 <p class="description-project">Веб-сайт</p>
-              </a>
-            </li>
-            <li>
-              <a class="links-posters" href="">
-                <img
-                  src="./images/poster.jpg"
-                  alt="Poster New Orlean VS Golden star example of designe"
-                  width="370"
-                />
-                <h3 class="posters">Постер New Orlean vs Golden Star</h3>
+              </div>
+            </a>
+          </li>
+          <li class="post">
+            <a class="links-posters" href="">
+              <img
+                src="./images/poster.jpg"
+                alt="Poster New Orlean VS Golden star example of designe"
+                width="370"
+              />
+              <div class="poster-desc">
+                <h2 class="posters">Постер New Orlean vs Golden Star</h2>
                 <p class="description-project">Дизайн</p>
-              </a>
-            </li>
-            <li>
-              <a class="links-posters" href="">
-                <img src="./images/restaurant.jpg" alt="example of app" width="370" />
-                <h3 class="posters">Ресторан Seafood</h3>
+              </div>
+            </a>
+          </li>
+          <li class="post">
+            <a class="links-posters" href="">
+              <img src="./images/restaurant.jpg" alt="example of app" width="370" />
+              <div class="poster-desc">
+                <h2 class="posters">Ресторан Seafood</h2>
                 <p class="description-project">Приложение</p>
-              </a>
-            </li>
-            <li>
-              <a class="links-posters" href=""
-                ><img src="./images/prime.jpg" alt="Project Prime" width="370" />
-                <h3 class="posters">Проект Prime</h3>
-                <p class="description-project">Маркетинг</p>
-              </a>
-            </li>
-            <li>
-              <a class="links-posters" href=""
-                ><img src="./images/boxes.jpg" alt="Project Boxes" width="370" />
-                <h3 class="posters">Проект Boxes</h3>
-                <p class="description-project">Приложение</p>
-              </a>
-            </li>
-            <li>
-              <a class="links-posters" href=""
-                ><img src="./images/inspiration.jpg" alt="Web Inspiration" width="370" />
-                <h3 class="posters">Inspiration has no Borders</h3>
-                <p class="description-project">Веб-сайт</p>
-              </a>
-            </li>
-            <li>
-              <a class="links-posters" href=""
-                ><img src="./images/limited edition.jpg" alt="example" width="370" />
-                <h3 class="posters">Издание Limited Edition</h3>
-                <p class="description-project">Дизайн</p>
-              </a>
-            </li>
-            <li>
-              <a class="links-posters" href=""
-                ><img src="./images/lab.jpg" alt="Project LAB" width="370" />
-                <h3 class="posters">Проект LAB</h3>
-                <p class="description-project">Маркетинг</p>
-              </a>
-            </li>
-            <li>
-              <a class="links-posters" href=""
-                ><img src="./images/business.jpg" alt="example of app" width="370" />
-                <h3 class="posters">Growing Business</h3>
-                <p class="description-project">Приложение</p>
-              </a>
-            </li>
-          </ul>
-        </section>
-      </main>
+              </div>
+            </a>
+          </li>
 
-      <footer class="footer">
+          <li class="post">
+            <a class="links-posters" href=""
+              ><img src="./images/prime.jpg" alt="Project Prime" width="370" />
+              <div class="poster-desc">
+                <h2 class="posters">Проект Prime</h2>
+                <p class="description-project">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="post">
+            <a class="links-posters" href=""
+              ><img src="./images/boxes.jpg" alt="Project Boxes" width="370" />
+              <div class="poster-desc">
+                <h2 class="posters">Проект Boxes</h2>
+                <p class="description-project">Приложение</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="post">
+            <a class="links-posters" href=""
+              ><img src="./images/inspiration.jpg" alt="Web Inspiration" width="370" />
+              <div class="poster-desc">
+                <h2 class="posters">Inspiration has no Borders</h2>
+
+                <p class="description-project">Веб-сайт</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="post">
+            <a class="links-posters" href=""
+              ><img src="./images/limited edition.jpg" alt="example" width="370" />
+              <div class="poster-desc">
+                <h2 class="posters">Издание Limited Edition</h2>
+                <p class="description-project">Дизайн</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="post">
+            <a class="links-posters" href=""
+              ><img src="./images/lab.jpg" alt="Project LAB" width="370" />
+              <div class="poster-desc">
+                <h2 class="posters">Проект LAB</h2>
+                <p class="description-project">Маркетинг</p>
+              </div>
+            </a>
+          </li>
+
+          <li class="post">
+            <a class="links-posters" href=""
+              ><img src="./images/business.jpg" alt="example of app" width="370" />
+              <div class="poster-desc">
+                <h2 class="posters">Growing Business</h2>
+                <p class="description-project">Приложение</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer section-footer">
+      <div class="container">
         <a class="logo-studio-footer" href="./index.html"
           ><span class="logo-web">Web</span>Studio</a
         >
@@ -145,7 +174,7 @@
             </li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>
