@@ -172,7 +172,7 @@ body {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   background: var(--footer-color);
   text-align: center;
 }
